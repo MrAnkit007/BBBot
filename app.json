@@ -1,0 +1,172 @@
+{
+    "name": "Babu Bhaiya Bot",
+    "description": "Filmy Babu Bhaiya",
+    "logo": "https://telegra.ph/file/d68bb62416a65ab046602.jpg",
+    "keywords": ["Telegram", "Movie", "Babu Bhaiya Bot"],
+    "repository": "https://telegra.ph/file/d68bb62416a65ab046602.jpg",
+    "env": {
+        "WEBHOOK": {
+            "description": "True/False if your server is web support required? the value is True else False",
+            "value": "True",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "6051676077:AAHYP1jeY0SlanOzt4Kt93mTHpPHhZRvvQ4",
+",
+            "required": true
+        },
+        "API_ID": {
+            "description": "23921567",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "bff5832c7e759e019bc0d47677722539",
+            "required": true
+        },
+        "CHANNELS": {
+            "description": "-1001954322140",
+            "required": false
+        },
+        "ADMINS": {
+            "description": "@ninja495",
+            "required": true
+        },
+        "SHORT_API": {
+            "description": "7de370bb44a5646ffedbef26399f05a5283e1ecc",
+            "required": false
+        },
+        "SHORT_URL": {
+            "description": "https://atglinks.com",
+            "required": false
+        },
+        "PICS": {
+            "description": "https://telegra.ph/file/d68bb62416a65ab046602.jpg",
+            "required": false
+        },
+        "LOG_CHANNEL": {
+            "description": "-1001984555199",
+            "required": true                              
+        },
+        "AUTH_CHANNEL": {
+            "description": "-1001428196353",
+            "required": false
+        },           
+        "MAX_RIST_BTNS": {
+            "description": "4",
+            "value": "10",
+            "required": false
+        },
+        "CUSTOM_FILE_CAPTION": {
+            "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
+            "value": "Ye Le {mention}👋\n\n{file_name}\n\n🔘 size - {file_size}\n\n╭─── • ❰ @crazyflashdeals ❱ • ────➤\n┣ ▫️ @shoppingoffersdeals_in\n┣ ▫️ @filmybabubhaiya_bot\n╰─────── • ◆ • ───────➤",
+            "required": false
+        },
+        "DATABASE_URL": {
+            "description": "mongodb+srv://ankitpareek1999s:dlsEvdKxY4hI4mnq@babubhaiyacluster1.wzvsaej.mongodb.net/?retryWrites=true&w=majority",
+            "required": true
+        },
+        "DATABASE_NAME": {
+            "description": "Name of the database in mongoDB.",
+            "value": "babubhaiyacluster1",
+            "required": false
+        },
+        "COLLECTION_NAME": {
+            "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
+            "value": "Telegram_files",
+            "required": false        
+        },
+        "SUPPORT_CHAT": {
+            "description": "Updated Channel Username Without @ Not Chanel ID",
+            "value": "Join Us",
+            "required": false
+        },
+        "IMDB": {
+            "description": "Imdb, the view of information when making True/False",
+            "value": "True",
+            "required": false     
+        },
+        "PM_IMDB": {
+            "description": "pm Imdb, the view of information when making True/False",
+            "value": "True",
+            "required": false     
+        },
+        "IMDB_TEMPLATE": {
+            "description": "Custom IMDB Template",
+            "value": "<b>Qᴜᴇʀʏ: {query}</b>\n\n🏷 Tɪᴛʟᴇ: <a href={url}>{title}</a>\n🎭 Gᴇɴʀᴇꜱ: {genres}\n📆 Yᴇᴀʀ: <a href={url}/releaseinfo>{year}</a>\n🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10",        
+            "required": false
+        }, 
+        "IMDB_DELET_TIME": {
+            "description": "bot risult aouto delet time in second do to avoid group copyright issue. default is 300 ",
+            "value": "300",
+            "required": false  
+        },
+        "SINGLE_BUTTON": {
+            "description": "choose b/w single or double buttons https://github.com/Aadhi000/Ajax/issues/22",
+            "value": "True",
+            "required": false         
+        },
+        "START_MESSAGE": {
+            "description": "bot start message text [ {user} = bot startd user name {bot} = your bot name",
+            "value": "<b>✨ Chamaila {user}.\n\nMera Naam : Babu Rao Ganpat Rao Apte.\n\nMain Aaj Tereko Mastt Picture Dikhayega. Tu Type Kar Kya Dekhega re!!</b>",
+            "required": false
+        },       
+        "FORCE_SUB_TEXT": {
+            "description": "custom force sub text (use ** = bold / use ``=  mono)",
+            "value": "Pahele Ye Channel Join Karneka Fir Picture Dekhneka !",
+            "required": false
+        },
+        "AUTH_GROUPS": {
+            "description": "Group Id. Only work a specific group/ your bot is public use? please just Skip this",
+            "value": "-1001954322140",
+            "required": false
+        },
+        "WELCOM_PIC": {
+            "description": "Welcome message pic (telegraph link)",
+            "value": "https://telegra.ph/file/d68bb62416a65ab046602.jpg",
+            "required": false
+        },
+        "WELCOM_TEXT": {
+            "description": "your group welcome text keyword({user} = joined use & {chat} = your chat name",
+            "value": "Aye Raju, Dekh {user} Aaya 💞\n Abhi Mastt Idhar {chat} mei Maza Karne K.\n\nMain Aaj Tereko Mastt Picture Dikhayega. Tu Type Kar Kya Dekhega re!!.\n\nYe Baburao Ka Style Hai ",
+            "required": false
+        },
+        "BUTTON_LOCK_TEXT": {
+            "description": "button lock text [User = {query}]",
+            "value": "Aye Halkat! {query}\nYE tere liye nahi hai. Tu Apna Search Kar Na  Reꜰ",
+            "required": false
+        },
+        "PMFILTER": {
+            "description": "PM AutoFilter. set True to on / False to off",
+            "value": "True",
+            "required": false
+        },
+        "G_FILTER": {
+            "description": "GlobalFilter set True to on / False to off",
+            "value": "True",
+            "required": false
+        },
+        "BUTTON_LOCK": {
+            "description": "Button alert set True to on / False to off",
+            "value": "True",
+            "required": false
+        },
+        "RemoveBG_API": {
+            "description": "3ic58vZQ1zspxvvDQ3bU1ukv",
+            "required": false 
+        },
+        "P_TTI_SHOW_OFF": { 
+            "description": "Customize Result Buttons to Callback or Url by (True = url / False = callback)",
+            "value": "True",
+            "required": false
+        }
+    },
+    "buildpacks":
+        [
+            {"url": "heroku/python"}
+        ]      
+}
+
+
+
+
+
